@@ -1,24 +1,65 @@
-# Assignment 1: snake, Snake!
-## snake.c: Snake!
-snake.c is an implementation of the classic video game Snake!  
+# autotests and style marks
+!!section tests  
+!!section assess  
 
-The starting state of a game to the right, where you can see all the key parts of the game. Snake is played on a 15×15 grid. The snake is made up of a head (#), and a number of body segments (o), and can move around the grid.  
+Test 1 (.) - passed  
+Test 2 (a) - passed  
+Test 3 (d) - passed  
+Test 4 (s) - passed  
+Test 5 (w) - passed  
+Test 6 (wa) - passed  
+Test 7 (sa) - passed  
+Test 8 (dd) - passed  
+Test 9 (wdsa) - passed  
+Test 10 (wasd) - passed  
+Test 11 (sdwa) - passed  
+Test 12 (sawd) - passed  
+Test 13 (awsadsw) - passed  
+Test 14 (wwwwwwwaaaaa) - passed  
+Test 15 (ssaawwddssaawwdd) - passed  
+Test 16 (sdsdsdsdsdsdsds) - passed  
+Test 17 (wwwwwwwaaaaaa) - passed  
+Test 18 (wawawawawawaw) - passed  
+Test 19 (wwwwwwwaaaaaasdw) - passed  
+Test 20 (wwwwwwwaaaaaasssssddd) - passed  
+Test 21 (ssssssss) - passed  
+Test 22 (dddddddd) - passed  
+Test 23 (wwwwwwww) - passed  
+Test 24 (saaaaaaasssssss) - passed  
+Test 25 (sawdsawdsawddddddddd) - passed  
+Test 26 (aaasaaaaaaaa) - passed  
+Test 27 (wwwwwwwaaaaaasddsssssssdwwwas) - passed  
+Test 28 (dddddddsaaaaaaaaaaaaaawddddddd) - passed  
+Test 29 (wwwwwwwdssssssssssssssawwwwwww) - passed  
+Test 30 (wwwwwwwaaaaaasssssdddwwaaassdddwwaaaaa) - passed  
+Test 31 (dddddddwwwwwwwaaaaaaaaaaaaaassssssssssssssddddddddddddddwwwwwwwwwwwwwww) - passed  
+Test 32 (wwwwwwwaaaaaasssssdddddddsssssssssaaawwwwwwwwwwwwddddssaassssddddwwwwwwwaaaaaaaaaaasa) - passed  
+32 tests passed 0 tests failed  
+  
+Testing Summary  
+  
+32 tests passed, 0 tests failed, 0 tests not run  
+  
+Your performance mark was produced from the number of tests passed,  
+and translated using a piece-wise linear formula consistent with the  
+indicative marking scheme in the assignment specification.    
+    
+Mark for automarking tests: 80.0/80.0    
 
-When the user enters one of `w`, `a`, `s`, or `d`, the snake will move one step on the grid either north, west, south, or east, respectively. The snake won't move if the requested direction is where the first non-head segment is.  
 
-Also on the grid: apples! Snakes like apples<sup>[citation needed]</sup> so, if the snake's head moves over an apple (denoted @), the snake consumes it, and gains three segments over the next three moves. If there's no apple on the grid, a new one is added in a random empty cell.  
-
-The game ends only when either the snake falls off one of the edges of the board, or the snake runs into its own body — as the snake's length increases, not falling off the board or running into itself become increasingly tricky!  
-
-## snake.s: The Assignment
-Your task in this assignment is to implement snake.s in MIPS assembly.  
-
-You have been provided with some assembly and some helpful information in snake.s. Read through the provided code carefully, then add MIPS assembly so it executes exactly the same as snake.c.  
-
-A handful of utility functions have already been translated to MIPS assembly for you. You only have to implement the following unfinished functions in MIPS assembly:
-* main,
-* init_snake,
-* update_apple,
-* update_snake,
-* move_snake_in_grid, and
-* move_snake_in_array
+You can rerun the tests used in marking by running: 1521 automark snake  
+    
+!!specialmark  (Automated testing)                      80.0/80  
+  
+!!marktab       **  MARKER'S  ASSESSMENT  **  
+  
+                                Style  (20)     20  
+ ^  
+ + ================== +  
+ + Perfect Style      +  
+ + Well done overall! +  
+ + ================== +  
+  
+!!finalmark     **  FINAL  ASSIGNMENT  MARK:    100/100    
+  
+5123456 Ghasembeigi, Amin                       3778/2 COMPA1    
