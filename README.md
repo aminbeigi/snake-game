@@ -1,5 +1,5 @@
 # autotests and style marks
-!!section tests  
+```!!section tests  
 !!section assess  
 
 Test 1 (.) - passed  
@@ -62,4 +62,4 @@ You can rerun the tests used in marking by running: 1521 automark snake
   
 !!finalmark     **  FINAL  ASSIGNMENT  MARK:    100/100    
   
-5123456 Ghasembeigi, Amin                       3778/2 COMPA1    
+5123456 Ghasembeigi, Amin                       3778/2 COMPA1```
